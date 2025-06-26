@@ -2,7 +2,7 @@
 # """
 # MCP Server - API 연결 및 통신 담당 (수정된 버전)
 # Claude와의 통신을 위한 MCP 프로토콜 구현
-# """
+# """ 
 
 import asyncio
 import json
