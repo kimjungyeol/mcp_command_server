@@ -1,7 +1,8 @@
-<<<<<<< HEAD
-## 4. Poetry 명령어 사용
+# Claude Mcp Command Server
 
-### 4.1 의존성 설치
+## Poetry 명령어 사용
+
+### 1 의존성 설치
 ```bash
 # 가상환경 생성 및 패키지 설치
 poetry install
@@ -10,7 +11,7 @@ poetry install
 poetry add git+https://github.com/modelcontextprotocol/python-sdk.git
 ```
 
-### 4.2 가상환경 활성화
+### 2 가상환경 활성화
 ```bash
 # Poetry 쉘 활성화
 poetry shell
@@ -29,12 +30,11 @@ poetry install
 poetry add git+https://github.com/modelcontextprotocol/python-sdk.git
 ```
 
-### 4.2 가상환경 활성화
+### 2 가상환경 활성화
 ```bash
 # Poetry 쉘 활성화
 poetry shell
 
-# 또는 명령어 실행
+# 또는 명령어 실행 테스트
 poetry run python src/mcp_command_server/mcp_server_api.py
->>>>>>> 0fa8e3732bb50280a7c618dafd0dad4233a84e72
 ```
