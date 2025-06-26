@@ -1,13 +1,12 @@
-<<<<<<< HEAD
 2025-06-26 09:40:49,532 - asyncio - DEBUG - Using proactor: IocpProactor
 2025-06-26 09:41:49,234 - asyncio - DEBUG - Using proactor: IocpProactor
 2025-06-26 09:47:38,693 - asyncio - DEBUG - Using proactor: IocpProactor
 2025-06-26 09:47:38,694 - mcp.server.lowlevel.server - DEBUG - Initializing server 'command-executor'
 2025-06-26 09:47:38,694 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
 2025-06-26 09:47:38,695 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
-2025-06-26 09:47:38,695 - __main__ - INFO - MCP ¼­¹ö ÃÊ±âÈ­ ¿Ï·á
-2025-06-26 09:47:38,705 - __main__ - INFO - MCP ¼­¹ö ½ÃÀÛ Áß...
-2025-06-26 09:47:38,710 - __main__ - INFO - stdio ¼­¹ö ¿¬°áµÊ
+2025-06-26 09:47:38,695 - __main__ - INFO - MCP ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­ ï¿½Ï·ï¿½
+2025-06-26 09:47:38,705 - __main__ - INFO - MCP ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½...
+2025-06-26 09:47:38,710 - __main__ - INFO - stdio ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
 2025-06-26 09:50:12,784 - mcp.server.lowlevel.server - DEBUG - Received message: 1 validation error for JSONRPCMessage
   Invalid JSON: EOF while parsing a value at line 2 column 0 [type=json_invalid, input_value='\n', input_type=str]
     For further information visit https://errors.pydantic.dev/2.11/v/json_invalid
@@ -26,24 +25,24 @@
 2025-06-26 09:50:24,241 - mcp.server.lowlevel.server - DEBUG - Received message: 1 validation error for JSONRPCMessage
   Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='dir\n', input_type=str]
     For further information visit https://errors.pydantic.dev/2.11/v/json_invalid
-2025-06-26 09:53:59,985 - __main__ - INFO - ¼­¹ö°¡ Á¤»óÀûÀ¸·Î Á¾·áµÇ¾ú½À´Ï´Ù
+2025-06-26 09:53:59,985 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½
 2025-06-26 09:56:56,174 - asyncio - DEBUG - Using proactor: IocpProactor
 2025-06-26 09:56:56,175 - mcp.server.lowlevel.server - DEBUG - Initializing server 'command-executor'
 2025-06-26 09:56:56,175 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
 2025-06-26 09:56:56,175 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
-2025-06-26 09:56:56,175 - __main__ - INFO - MCP ¼­¹ö ÃÊ±âÈ­ ¿Ï·á
-2025-06-26 09:56:56,175 - __main__ - INFO - MCP ¼­¹ö ½ÃÀÛ Áß...
-2025-06-26 09:56:56,179 - __main__ - INFO - stdio ¼­¹ö ¿¬°áµÊ
+2025-06-26 09:56:56,175 - __main__ - INFO - MCP ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­ ï¿½Ï·ï¿½
+2025-06-26 09:56:56,175 - __main__ - INFO - MCP ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½...
+2025-06-26 09:56:56,179 - __main__ - INFO - stdio ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
 2025-06-26 09:56:56,187 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=NotificationParams(meta=None), jsonrpc='2.0')
 2025-06-26 09:56:56,199 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD4232B310>
 2025-06-26 09:56:56,200 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
 2025-06-26 09:56:56,200 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
-2025-06-26 09:56:56,200 - __main__ - INFO - µµ±¸ ¸ñ·Ï ¿äÃ»µÊ
+2025-06-26 09:56:56,200 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½
 2025-06-26 09:56:56,201 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 09:56:56,201 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD423F8BD0>
 2025-06-26 09:56:56,201 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
 2025-06-26 09:56:56,201 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
-2025-06-26 09:56:56,202 - __main__ - INFO - µµ±¸ ¸ñ·Ï ¿äÃ»µÊ
+2025-06-26 09:56:56,202 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½
 2025-06-26 09:56:56,202 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD4232B310>
 2025-06-26 09:56:56,203 - mcp.server.lowlevel.server - INFO - Processing request of type ListResourcesRequest
 2025-06-26 09:56:56,203 - mcp.server.lowlevel.server - DEBUG - Response sent
@@ -54,16 +53,16 @@
 2025-06-26 09:57:29,699 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A2E50>
 2025-06-26 09:57:29,699 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 09:57:29,699 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 09:57:29,699 - __main__ - INFO - µµ±¸ È£Ãâ: execute_command, ÀÎ¼ö: {'command': 'dir C:\\ /s /ad | findstr /i oms', 'timeout': 60}
+2025-06-26 09:57:29,699 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: execute_command, ï¿½Î¼ï¿½: {'command': 'dir C:\\ /s /ad | findstr /i oms', 'timeout': 60}
 2025-06-26 09:57:29,751 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD4232B450>
 2025-06-26 09:57:29,751 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
 2025-06-26 09:57:29,751 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
-2025-06-26 09:57:29,751 - __main__ - INFO - µµ±¸ ¸ñ·Ï ¿äÃ»µÊ
+2025-06-26 09:57:29,751 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½
 2025-06-26 09:57:29,752 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 09:57:29,752 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A0C50>
 2025-06-26 09:57:29,752 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
 2025-06-26 09:57:29,752 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
-2025-06-26 09:57:29,753 - __main__ - INFO - µµ±¸ ¸ñ·Ï ¿äÃ»µÊ
+2025-06-26 09:57:29,753 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½
 2025-06-26 09:57:29,753 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A0090>
 2025-06-26 09:57:29,753 - mcp.server.lowlevel.server - INFO - Processing request of type ListResourcesRequest
 2025-06-26 09:57:29,753 - mcp.server.lowlevel.server - DEBUG - Response sent
@@ -75,22 +74,22 @@
 2025-06-26 09:58:53,187 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B3B10>
 2025-06-26 09:58:53,187 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 09:58:53,187 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 09:58:53,187 - __main__ - INFO - µµ±¸ È£Ãâ: execute_command, ÀÎ¼ö: {'command': 'dir "C:\\Program Files" /s /ad | findstr /i oms', 'timeout': 30}
+2025-06-26 09:58:53,187 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: execute_command, ï¿½Î¼ï¿½: {'command': 'dir "C:\\Program Files" /s /ad | findstr /i oms', 'timeout': 30}
 2025-06-26 09:58:54,159 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 09:58:57,970 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B3A10>
 2025-06-26 09:58:57,970 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 09:58:57,970 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 09:58:57,970 - __main__ - INFO - µµ±¸ È£Ãâ: execute_command, ÀÎ¼ö: {'command': 'dir "C:\\Program Files (x86)" /s /ad | findstr /i oms', 'timeout': 30}
+2025-06-26 09:58:57,970 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: execute_command, ï¿½Î¼ï¿½: {'command': 'dir "C:\\Program Files (x86)" /s /ad | findstr /i oms', 'timeout': 30}
 2025-06-26 09:58:58,655 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 09:59:02,501 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B3550>
 2025-06-26 09:59:02,501 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 09:59:02,502 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 09:59:02,502 - __main__ - INFO - µµ±¸ È£Ãâ: execute_command, ÀÎ¼ö: {'command': 'dir C:\\Users /s /ad | findstr /i oms', 'timeout': 30}
+2025-06-26 09:59:02,502 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: execute_command, ï¿½Î¼ï¿½: {'command': 'dir C:\\Users /s /ad | findstr /i oms', 'timeout': 30}
 2025-06-26 09:59:33,617 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 09:59:35,097 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B1A50>
 2025-06-26 09:59:35,097 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 09:59:35,098 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 09:59:35,098 - __main__ - INFO - µµ±¸ È£Ãâ: execute_command, ÀÎ¼ö: {'command': 'dir "C:\\app" /s /ad | findstr /i oms', 'timeout': 30}
+2025-06-26 09:59:35,098 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: execute_command, ï¿½Î¼ï¿½: {'command': 'dir "C:\\app" /s /ad | findstr /i oms', 'timeout': 30}
 2025-06-26 09:59:38,710 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 10:07:30,134 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD42429490>
 2025-06-26 10:07:30,135 - mcp.server.lowlevel.server - INFO - Processing request of type ListResourcesRequest
@@ -131,16 +130,16 @@
 2025-06-26 11:03:24,377 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD4228D450>
 2025-06-26 11:03:24,377 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 11:03:24,377 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 11:03:24,378 - __main__ - INFO - µµ±¸ È£Ãâ: execute_command, ÀÎ¼ö: {'command': 'code "C:\\app\\workspace\\ph-pms\\resources"'}
+2025-06-26 11:03:24,378 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: execute_command, ï¿½Î¼ï¿½: {'command': 'code "C:\\app\\workspace\\ph-pms\\resources"'}
 2025-06-26 11:04:36,152 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B1950>
 2025-06-26 11:04:36,152 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 11:04:36,152 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 11:04:36,152 - __main__ - INFO - µµ±¸ È£Ãâ: list_directory, ÀÎ¼ö: {'path': 'C:\\app\\workspace\\ph-pms'}
+2025-06-26 11:04:36,152 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: list_directory, ï¿½Î¼ï¿½: {'path': 'C:\\app\\workspace\\ph-pms'}
 2025-06-26 11:04:36,155 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 11:04:36,248 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A1B90>
 2025-06-26 11:04:36,248 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
 2025-06-26 11:04:36,248 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
-2025-06-26 11:04:36,248 - __main__ - INFO - µµ±¸ ¸ñ·Ï ¿äÃ»µÊ
+2025-06-26 11:04:36,248 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½
 2025-06-26 11:04:36,249 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 11:04:36,249 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A00D0>
 2025-06-26 11:04:36,249 - mcp.server.lowlevel.server - INFO - Processing request of type ListResourcesRequest
@@ -152,13 +151,13 @@
 2025-06-26 11:04:39,609 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A00D0>
 2025-06-26 11:04:39,609 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 11:04:39,610 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 11:04:39,610 - __main__ - INFO - µµ±¸ È£Ãâ: execute_command, ÀÎ¼ö: {'command': 'dir "C:\\app\\workspace\\ph-pms" /s /ad | findstr /i resources'}
+2025-06-26 11:04:39,610 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: execute_command, ï¿½Î¼ï¿½: {'command': 'dir "C:\\app\\workspace\\ph-pms" /s /ad | findstr /i resources'}
 2025-06-26 11:04:39,981 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 11:04:43,813 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B38D0>
 2025-06-26 11:04:43,813 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 11:04:43,813 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 11:04:43,813 - __main__ - INFO - µµ±¸ È£Ãâ: execute_command, ÀÎ¼ö: {'command': 'code "C:\\app\\workspace\\ph-pms\\src\\main\\resources"'}
-2025-06-26 11:14:36,254 - __main__ - ERROR - ¼­¹ö ½ÇÇà Áß ¿À·ù ¹ß»ý: unhandled errors in a TaskGroup (1 sub-exception)
+2025-06-26 11:04:43,813 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: execute_command, ï¿½Î¼ï¿½: {'command': 'code "C:\\app\\workspace\\ph-pms\\src\\main\\resources"'}
+2025-06-26 11:14:36,254 - __main__ - ERROR - ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½: unhandled errors in a TaskGroup (1 sub-exception)
   + Exception Group Traceback (most recent call last):
   |   File "C:\Users\kjy\myproject\python\mcp_command_server\src\mcp_command_server\mcp_server_api.py", line 155, in run
   |     async with stdio_server() as (read_stream, write_stream):
@@ -179,7 +178,7 @@
     |     raise BrokenResourceError
     | anyio.BrokenResourceError
     +------------------------------------
-2025-06-26 11:14:36,330 - __main__ - ERROR - ¼­¹ö ½ÃÀÛ ½ÇÆÐ: unhandled errors in a TaskGroup (1 sub-exception)
+2025-06-26 11:14:36,330 - __main__ - ERROR - ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: unhandled errors in a TaskGroup (1 sub-exception)
   + Exception Group Traceback (most recent call last):
   |   File "C:\Users\kjy\myproject\python\mcp_command_server\src\mcp_command_server\mcp_server_api.py", line 232, in <module>
   |     asyncio.run(main())
@@ -220,9 +219,9 @@
 2025-06-26 09:47:38,694 - mcp.server.lowlevel.server - DEBUG - Initializing server 'command-executor'
 2025-06-26 09:47:38,694 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
 2025-06-26 09:47:38,695 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
-2025-06-26 09:47:38,695 - __main__ - INFO - MCP ¼­¹ö ÃÊ±âÈ­ ¿Ï·á
-2025-06-26 09:47:38,705 - __main__ - INFO - MCP ¼­¹ö ½ÃÀÛ Áß...
-2025-06-26 09:47:38,710 - __main__ - INFO - stdio ¼­¹ö ¿¬°áµÊ
+2025-06-26 09:47:38,695 - __main__ - INFO - MCP ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­ ï¿½Ï·ï¿½
+2025-06-26 09:47:38,705 - __main__ - INFO - MCP ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½...
+2025-06-26 09:47:38,710 - __main__ - INFO - stdio ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
 2025-06-26 09:50:12,784 - mcp.server.lowlevel.server - DEBUG - Received message: 1 validation error for JSONRPCMessage
   Invalid JSON: EOF while parsing a value at line 2 column 0 [type=json_invalid, input_value='\n', input_type=str]
     For further information visit https://errors.pydantic.dev/2.11/v/json_invalid
@@ -241,24 +240,24 @@
 2025-06-26 09:50:24,241 - mcp.server.lowlevel.server - DEBUG - Received message: 1 validation error for JSONRPCMessage
   Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='dir\n', input_type=str]
     For further information visit https://errors.pydantic.dev/2.11/v/json_invalid
-2025-06-26 09:53:59,985 - __main__ - INFO - ¼­¹ö°¡ Á¤»óÀûÀ¸·Î Á¾·áµÇ¾ú½À´Ï´Ù
+2025-06-26 09:53:59,985 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½
 2025-06-26 09:56:56,174 - asyncio - DEBUG - Using proactor: IocpProactor
 2025-06-26 09:56:56,175 - mcp.server.lowlevel.server - DEBUG - Initializing server 'command-executor'
 2025-06-26 09:56:56,175 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
 2025-06-26 09:56:56,175 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
-2025-06-26 09:56:56,175 - __main__ - INFO - MCP ¼­¹ö ÃÊ±âÈ­ ¿Ï·á
-2025-06-26 09:56:56,175 - __main__ - INFO - MCP ¼­¹ö ½ÃÀÛ Áß...
-2025-06-26 09:56:56,179 - __main__ - INFO - stdio ¼­¹ö ¿¬°áµÊ
+2025-06-26 09:56:56,175 - __main__ - INFO - MCP ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­ ï¿½Ï·ï¿½
+2025-06-26 09:56:56,175 - __main__ - INFO - MCP ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½...
+2025-06-26 09:56:56,179 - __main__ - INFO - stdio ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
 2025-06-26 09:56:56,187 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=NotificationParams(meta=None), jsonrpc='2.0')
 2025-06-26 09:56:56,199 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD4232B310>
 2025-06-26 09:56:56,200 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
 2025-06-26 09:56:56,200 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
-2025-06-26 09:56:56,200 - __main__ - INFO - µµ±¸ ¸ñ·Ï ¿äÃ»µÊ
+2025-06-26 09:56:56,200 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½
 2025-06-26 09:56:56,201 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 09:56:56,201 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD423F8BD0>
 2025-06-26 09:56:56,201 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
 2025-06-26 09:56:56,201 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
-2025-06-26 09:56:56,202 - __main__ - INFO - µµ±¸ ¸ñ·Ï ¿äÃ»µÊ
+2025-06-26 09:56:56,202 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½
 2025-06-26 09:56:56,202 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD4232B310>
 2025-06-26 09:56:56,203 - mcp.server.lowlevel.server - INFO - Processing request of type ListResourcesRequest
 2025-06-26 09:56:56,203 - mcp.server.lowlevel.server - DEBUG - Response sent
@@ -269,16 +268,16 @@
 2025-06-26 09:57:29,699 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A2E50>
 2025-06-26 09:57:29,699 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 09:57:29,699 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 09:57:29,699 - __main__ - INFO - µµ±¸ È£Ãâ: execute_command, ÀÎ¼ö: {'command': 'dir C:\\ /s /ad | findstr /i oms', 'timeout': 60}
+2025-06-26 09:57:29,699 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: execute_command, ï¿½Î¼ï¿½: {'command': 'dir C:\\ /s /ad | findstr /i oms', 'timeout': 60}
 2025-06-26 09:57:29,751 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD4232B450>
 2025-06-26 09:57:29,751 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
 2025-06-26 09:57:29,751 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
-2025-06-26 09:57:29,751 - __main__ - INFO - µµ±¸ ¸ñ·Ï ¿äÃ»µÊ
+2025-06-26 09:57:29,751 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½
 2025-06-26 09:57:29,752 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 09:57:29,752 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A0C50>
 2025-06-26 09:57:29,752 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
 2025-06-26 09:57:29,752 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
-2025-06-26 09:57:29,753 - __main__ - INFO - µµ±¸ ¸ñ·Ï ¿äÃ»µÊ
+2025-06-26 09:57:29,753 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½
 2025-06-26 09:57:29,753 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A0090>
 2025-06-26 09:57:29,753 - mcp.server.lowlevel.server - INFO - Processing request of type ListResourcesRequest
 2025-06-26 09:57:29,753 - mcp.server.lowlevel.server - DEBUG - Response sent
@@ -290,22 +289,22 @@
 2025-06-26 09:58:53,187 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B3B10>
 2025-06-26 09:58:53,187 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 09:58:53,187 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 09:58:53,187 - __main__ - INFO - µµ±¸ È£Ãâ: execute_command, ÀÎ¼ö: {'command': 'dir "C:\\Program Files" /s /ad | findstr /i oms', 'timeout': 30}
+2025-06-26 09:58:53,187 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: execute_command, ï¿½Î¼ï¿½: {'command': 'dir "C:\\Program Files" /s /ad | findstr /i oms', 'timeout': 30}
 2025-06-26 09:58:54,159 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 09:58:57,970 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B3A10>
 2025-06-26 09:58:57,970 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 09:58:57,970 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 09:58:57,970 - __main__ - INFO - µµ±¸ È£Ãâ: execute_command, ÀÎ¼ö: {'command': 'dir "C:\\Program Files (x86)" /s /ad | findstr /i oms', 'timeout': 30}
+2025-06-26 09:58:57,970 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: execute_command, ï¿½Î¼ï¿½: {'command': 'dir "C:\\Program Files (x86)" /s /ad | findstr /i oms', 'timeout': 30}
 2025-06-26 09:58:58,655 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 09:59:02,501 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B3550>
 2025-06-26 09:59:02,501 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 09:59:02,502 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 09:59:02,502 - __main__ - INFO - µµ±¸ È£Ãâ: execute_command, ÀÎ¼ö: {'command': 'dir C:\\Users /s /ad | findstr /i oms', 'timeout': 30}
+2025-06-26 09:59:02,502 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: execute_command, ï¿½Î¼ï¿½: {'command': 'dir C:\\Users /s /ad | findstr /i oms', 'timeout': 30}
 2025-06-26 09:59:33,617 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 09:59:35,097 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B1A50>
 2025-06-26 09:59:35,097 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 09:59:35,098 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 09:59:35,098 - __main__ - INFO - µµ±¸ È£Ãâ: execute_command, ÀÎ¼ö: {'command': 'dir "C:\\app" /s /ad | findstr /i oms', 'timeout': 30}
+2025-06-26 09:59:35,098 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: execute_command, ï¿½Î¼ï¿½: {'command': 'dir "C:\\app" /s /ad | findstr /i oms', 'timeout': 30}
 2025-06-26 09:59:38,710 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 10:07:30,134 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD42429490>
 2025-06-26 10:07:30,135 - mcp.server.lowlevel.server - INFO - Processing request of type ListResourcesRequest
@@ -346,16 +345,16 @@
 2025-06-26 11:03:24,377 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD4228D450>
 2025-06-26 11:03:24,377 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 11:03:24,377 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 11:03:24,378 - __main__ - INFO - µµ±¸ È£Ãâ: execute_command, ÀÎ¼ö: {'command': 'code "C:\\app\\workspace\\ph-pms\\resources"'}
+2025-06-26 11:03:24,378 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: execute_command, ï¿½Î¼ï¿½: {'command': 'code "C:\\app\\workspace\\ph-pms\\resources"'}
 2025-06-26 11:04:36,152 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B1950>
 2025-06-26 11:04:36,152 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 11:04:36,152 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 11:04:36,152 - __main__ - INFO - µµ±¸ È£Ãâ: list_directory, ÀÎ¼ö: {'path': 'C:\\app\\workspace\\ph-pms'}
+2025-06-26 11:04:36,152 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: list_directory, ï¿½Î¼ï¿½: {'path': 'C:\\app\\workspace\\ph-pms'}
 2025-06-26 11:04:36,155 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 11:04:36,248 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A1B90>
 2025-06-26 11:04:36,248 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
 2025-06-26 11:04:36,248 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
-2025-06-26 11:04:36,248 - __main__ - INFO - µµ±¸ ¸ñ·Ï ¿äÃ»µÊ
+2025-06-26 11:04:36,248 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½
 2025-06-26 11:04:36,249 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 11:04:36,249 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A00D0>
 2025-06-26 11:04:36,249 - mcp.server.lowlevel.server - INFO - Processing request of type ListResourcesRequest
@@ -367,13 +366,13 @@
 2025-06-26 11:04:39,609 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A00D0>
 2025-06-26 11:04:39,609 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 11:04:39,610 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 11:04:39,610 - __main__ - INFO - µµ±¸ È£Ãâ: execute_command, ÀÎ¼ö: {'command': 'dir "C:\\app\\workspace\\ph-pms" /s /ad | findstr /i resources'}
+2025-06-26 11:04:39,610 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: execute_command, ï¿½Î¼ï¿½: {'command': 'dir "C:\\app\\workspace\\ph-pms" /s /ad | findstr /i resources'}
 2025-06-26 11:04:39,981 - mcp.server.lowlevel.server - DEBUG - Response sent
 2025-06-26 11:04:43,813 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B38D0>
 2025-06-26 11:04:43,813 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
 2025-06-26 11:04:43,813 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
-2025-06-26 11:04:43,813 - __main__ - INFO - µµ±¸ È£Ãâ: execute_command, ÀÎ¼ö: {'command': 'code "C:\\app\\workspace\\ph-pms\\src\\main\\resources"'}
-2025-06-26 11:14:36,254 - __main__ - ERROR - ¼­¹ö ½ÇÇà Áß ¿À·ù ¹ß»ý: unhandled errors in a TaskGroup (1 sub-exception)
+2025-06-26 11:04:43,813 - __main__ - INFO - ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½: execute_command, ï¿½Î¼ï¿½: {'command': 'code "C:\\app\\workspace\\ph-pms\\src\\main\\resources"'}
+2025-06-26 11:14:36,254 - __main__ - ERROR - ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½: unhandled errors in a TaskGroup (1 sub-exception)
   + Exception Group Traceback (most recent call last):
   |   File "C:\Users\kjy\myproject\python\mcp_command_server\src\mcp_command_server\mcp_server_api.py", line 155, in run
   |     async with stdio_server() as (read_stream, write_stream):
@@ -394,7 +393,7 @@
     |     raise BrokenResourceError
     | anyio.BrokenResourceError
     +------------------------------------
-2025-06-26 11:14:36,330 - __main__ - ERROR - ¼­¹ö ½ÃÀÛ ½ÇÆÐ: unhandled errors in a TaskGroup (1 sub-exception)
+2025-06-26 11:14:36,330 - __main__ - ERROR - ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: unhandled errors in a TaskGroup (1 sub-exception)
   + Exception Group Traceback (most recent call last):
   |   File "C:\Users\kjy\myproject\python\mcp_command_server\src\mcp_command_server\mcp_server_api.py", line 232, in <module>
   |     asyncio.run(main())
@@ -428,4 +427,3 @@
     |     raise BrokenResourceError
     | anyio.BrokenResourceError
     +------------------------------------
->>>>>>> 0fa8e3732bb50280a7c618dafd0dad4233a84e72

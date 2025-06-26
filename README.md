@@ -38,3 +38,19 @@ poetry shell
 # 또는 명령어 실행 테스트
 poetry run python src/mcp_command_server/mcp_server_api.py
 ```
+
+
+## Claude desktop config json
+```
+{
+    "mcpServers": {
+		 "command-executor": {
+            "command": "cmd",
+            "args": [
+                "/c",
+                "cd /d C:\\Users\\kjy\\myproject\\python\\mcp_command_server && poetry run python src/mcp_command_server/mcp_server_api.py"
+            ]
+        }
+    }
+}
+```
