@@ -44,13 +44,14 @@ poetry run python src/mcp_command_server/mcp_server_api.py
 ```
 {
     "mcpServers": {
-		 "command-executor": {
+		"command-executor": {
             "command": "cmd",
             "args": [
                 "/c",
-                "cd /d C:\\Users\\kjy\\myproject\\python\\mcp_command_server && poetry run python src/mcp_command_server/mcp_server_api.py"
+                "cd /d C:\\Users\\[user]\\python\\mcp_command_server && poetry run python src/mcp_command_server/mcp_server_api.py"
             ]
         }
     }
 }
 ```
+로컬의 mcp_command_server 소스 위치 정보를 확인하여 수정.
