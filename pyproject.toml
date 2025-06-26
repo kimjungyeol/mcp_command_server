@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mcp-command-server"
+version = "0.1.0"
+description = "MCP Server for executing Windows CMD commands"
+authors = ["sort <hatssarjy@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mcp_command_server", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mcp = {git = "https://github.com/modelcontextprotocol/python-sdk.git"}
+anyio = "^4.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0"
+black = "^23.0"
+flake8 = "^6.0"
+
+[tool.poetry.scripts]
+mcp-server = "mcp_command_server.server:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,214 @@
+2025-06-26 09:40:49,532 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-06-26 09:41:49,234 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-06-26 09:47:38,693 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-06-26 09:47:38,694 - mcp.server.lowlevel.server - DEBUG - Initializing server 'command-executor'
+2025-06-26 09:47:38,694 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-06-26 09:47:38,695 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-06-26 09:47:38,695 - __main__ - INFO - MCP 서버 초기화 완료
+2025-06-26 09:47:38,705 - __main__ - INFO - MCP 서버 시작 중...
+2025-06-26 09:47:38,710 - __main__ - INFO - stdio 서버 연결됨
+2025-06-26 09:50:12,784 - mcp.server.lowlevel.server - DEBUG - Received message: 1 validation error for JSONRPCMessage
+  Invalid JSON: EOF while parsing a value at line 2 column 0 [type=json_invalid, input_value='\n', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/json_invalid
+2025-06-26 09:50:14,471 - mcp.server.lowlevel.server - DEBUG - Received message: 1 validation error for JSONRPCMessage
+  Invalid JSON: EOF while parsing a value at line 2 column 0 [type=json_invalid, input_value='\n', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/json_invalid
+2025-06-26 09:50:15,175 - mcp.server.lowlevel.server - DEBUG - Received message: 1 validation error for JSONRPCMessage
+  Invalid JSON: EOF while parsing a value at line 2 column 0 [type=json_invalid, input_value='\n', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/json_invalid
+2025-06-26 09:50:15,527 - mcp.server.lowlevel.server - DEBUG - Received message: 1 validation error for JSONRPCMessage
+  Invalid JSON: EOF while parsing a value at line 2 column 0 [type=json_invalid, input_value='\n', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/json_invalid
+2025-06-26 09:50:15,775 - mcp.server.lowlevel.server - DEBUG - Received message: 1 validation error for JSONRPCMessage
+  Invalid JSON: EOF while parsing a value at line 2 column 0 [type=json_invalid, input_value='\n', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/json_invalid
+2025-06-26 09:50:24,241 - mcp.server.lowlevel.server - DEBUG - Received message: 1 validation error for JSONRPCMessage
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='dir\n', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/json_invalid
+2025-06-26 09:53:59,985 - __main__ - INFO - 서버가 정상적으로 종료되었습니다
+2025-06-26 09:56:56,174 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-06-26 09:56:56,175 - mcp.server.lowlevel.server - DEBUG - Initializing server 'command-executor'
+2025-06-26 09:56:56,175 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-06-26 09:56:56,175 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-06-26 09:56:56,175 - __main__ - INFO - MCP 서버 초기화 완료
+2025-06-26 09:56:56,175 - __main__ - INFO - MCP 서버 시작 중...
+2025-06-26 09:56:56,179 - __main__ - INFO - stdio 서버 연결됨
+2025-06-26 09:56:56,187 - mcp.server.lowlevel.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=NotificationParams(meta=None), jsonrpc='2.0')
+2025-06-26 09:56:56,199 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD4232B310>
+2025-06-26 09:56:56,200 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-26 09:56:56,200 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-06-26 09:56:56,200 - __main__ - INFO - 도구 목록 요청됨
+2025-06-26 09:56:56,201 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 09:56:56,201 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD423F8BD0>
+2025-06-26 09:56:56,201 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-26 09:56:56,201 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-06-26 09:56:56,202 - __main__ - INFO - 도구 목록 요청됨
+2025-06-26 09:56:56,202 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD4232B310>
+2025-06-26 09:56:56,203 - mcp.server.lowlevel.server - INFO - Processing request of type ListResourcesRequest
+2025-06-26 09:56:56,203 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 09:56:56,204 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 09:56:56,220 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A3ED0>
+2025-06-26 09:56:56,220 - mcp.server.lowlevel.server - INFO - Processing request of type ListPromptsRequest
+2025-06-26 09:56:56,220 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 09:57:29,699 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A2E50>
+2025-06-26 09:57:29,699 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-06-26 09:57:29,699 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
+2025-06-26 09:57:29,699 - __main__ - INFO - 도구 호출: execute_command, 인수: {'command': 'dir C:\\ /s /ad | findstr /i oms', 'timeout': 60}
+2025-06-26 09:57:29,751 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD4232B450>
+2025-06-26 09:57:29,751 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-26 09:57:29,751 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-06-26 09:57:29,751 - __main__ - INFO - 도구 목록 요청됨
+2025-06-26 09:57:29,752 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 09:57:29,752 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A0C50>
+2025-06-26 09:57:29,752 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-26 09:57:29,752 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-06-26 09:57:29,753 - __main__ - INFO - 도구 목록 요청됨
+2025-06-26 09:57:29,753 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A0090>
+2025-06-26 09:57:29,753 - mcp.server.lowlevel.server - INFO - Processing request of type ListResourcesRequest
+2025-06-26 09:57:29,753 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 09:57:29,753 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 09:57:29,799 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B1A50>
+2025-06-26 09:57:29,800 - mcp.server.lowlevel.server - INFO - Processing request of type ListPromptsRequest
+2025-06-26 09:57:29,800 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 09:58:48,043 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 09:58:53,187 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B3B10>
+2025-06-26 09:58:53,187 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-06-26 09:58:53,187 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
+2025-06-26 09:58:53,187 - __main__ - INFO - 도구 호출: execute_command, 인수: {'command': 'dir "C:\\Program Files" /s /ad | findstr /i oms', 'timeout': 30}
+2025-06-26 09:58:54,159 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 09:58:57,970 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B3A10>
+2025-06-26 09:58:57,970 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-06-26 09:58:57,970 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
+2025-06-26 09:58:57,970 - __main__ - INFO - 도구 호출: execute_command, 인수: {'command': 'dir "C:\\Program Files (x86)" /s /ad | findstr /i oms', 'timeout': 30}
+2025-06-26 09:58:58,655 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 09:59:02,501 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B3550>
+2025-06-26 09:59:02,501 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-06-26 09:59:02,502 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
+2025-06-26 09:59:02,502 - __main__ - INFO - 도구 호출: execute_command, 인수: {'command': 'dir C:\\Users /s /ad | findstr /i oms', 'timeout': 30}
+2025-06-26 09:59:33,617 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 09:59:35,097 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B1A50>
+2025-06-26 09:59:35,097 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-06-26 09:59:35,098 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
+2025-06-26 09:59:35,098 - __main__ - INFO - 도구 호출: execute_command, 인수: {'command': 'dir "C:\\app" /s /ad | findstr /i oms', 'timeout': 30}
+2025-06-26 09:59:38,710 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 10:07:30,134 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD42429490>
+2025-06-26 10:07:30,135 - mcp.server.lowlevel.server - INFO - Processing request of type ListResourcesRequest
+2025-06-26 10:07:30,135 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 10:07:30,511 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD4232B310>
+2025-06-26 10:07:30,511 - mcp.server.lowlevel.server - INFO - Processing request of type ListPromptsRequest
+2025-06-26 10:07:30,512 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 10:17:30,135 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD423F8BD0>
+2025-06-26 10:17:30,135 - mcp.server.lowlevel.server - INFO - Processing request of type ListResourcesRequest
+2025-06-26 10:17:30,136 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 10:17:30,515 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD4232B310>
+2025-06-26 10:17:30,516 - mcp.server.lowlevel.server - INFO - Processing request of type ListPromptsRequest
+2025-06-26 10:17:30,516 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 10:27:28,629 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD4232B450>
+2025-06-26 10:27:28,629 - mcp.server.lowlevel.server - INFO - Processing request of type ListResourcesRequest
+2025-06-26 10:27:28,630 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 10:27:28,633 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD4232B310>
+2025-06-26 10:27:28,633 - mcp.server.lowlevel.server - INFO - Processing request of type ListPromptsRequest
+2025-06-26 10:27:28,633 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 10:37:28,621 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B1F10>
+2025-06-26 10:37:28,621 - mcp.server.lowlevel.server - INFO - Processing request of type ListResourcesRequest
+2025-06-26 10:37:28,623 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 10:37:28,625 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B3DD0>
+2025-06-26 10:37:28,625 - mcp.server.lowlevel.server - INFO - Processing request of type ListPromptsRequest
+2025-06-26 10:37:28,626 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 10:47:28,630 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD423F8A90>
+2025-06-26 10:47:28,630 - mcp.server.lowlevel.server - INFO - Processing request of type ListResourcesRequest
+2025-06-26 10:47:28,630 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 10:47:28,633 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B1950>
+2025-06-26 10:47:28,633 - mcp.server.lowlevel.server - INFO - Processing request of type ListPromptsRequest
+2025-06-26 10:47:28,634 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 10:58:15,631 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD4228D450>
+2025-06-26 10:58:15,632 - mcp.server.lowlevel.server - INFO - Processing request of type ListResourcesRequest
+2025-06-26 10:58:15,632 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 10:58:15,636 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B3410>
+2025-06-26 10:58:15,637 - mcp.server.lowlevel.server - INFO - Processing request of type ListPromptsRequest
+2025-06-26 10:58:15,637 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 11:03:24,377 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD4228D450>
+2025-06-26 11:03:24,377 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-06-26 11:03:24,377 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
+2025-06-26 11:03:24,378 - __main__ - INFO - 도구 호출: execute_command, 인수: {'command': 'code "C:\\app\\workspace\\ph-pms\\resources"'}
+2025-06-26 11:04:36,152 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B1950>
+2025-06-26 11:04:36,152 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-06-26 11:04:36,152 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
+2025-06-26 11:04:36,152 - __main__ - INFO - 도구 호출: list_directory, 인수: {'path': 'C:\\app\\workspace\\ph-pms'}
+2025-06-26 11:04:36,155 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 11:04:36,248 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A1B90>
+2025-06-26 11:04:36,248 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-06-26 11:04:36,248 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type ListToolsRequest
+2025-06-26 11:04:36,248 - __main__ - INFO - 도구 목록 요청됨
+2025-06-26 11:04:36,249 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 11:04:36,249 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A00D0>
+2025-06-26 11:04:36,249 - mcp.server.lowlevel.server - INFO - Processing request of type ListResourcesRequest
+2025-06-26 11:04:36,250 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 11:04:36,257 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 11:04:36,503 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A2DD0>
+2025-06-26 11:04:36,504 - mcp.server.lowlevel.server - INFO - Processing request of type ListPromptsRequest
+2025-06-26 11:04:36,504 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 11:04:39,609 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424A00D0>
+2025-06-26 11:04:39,609 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-06-26 11:04:39,610 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
+2025-06-26 11:04:39,610 - __main__ - INFO - 도구 호출: execute_command, 인수: {'command': 'dir "C:\\app\\workspace\\ph-pms" /s /ad | findstr /i resources'}
+2025-06-26 11:04:39,981 - mcp.server.lowlevel.server - DEBUG - Response sent
+2025-06-26 11:04:43,813 - mcp.server.lowlevel.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001DD424B38D0>
+2025-06-26 11:04:43,813 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-06-26 11:04:43,813 - mcp.server.lowlevel.server - DEBUG - Dispatching request of type CallToolRequest
+2025-06-26 11:04:43,813 - __main__ - INFO - 도구 호출: execute_command, 인수: {'command': 'code "C:\\app\\workspace\\ph-pms\\src\\main\\resources"'}
+2025-06-26 11:14:36,254 - __main__ - ERROR - 서버 실행 중 오류 발생: unhandled errors in a TaskGroup (1 sub-exception)
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\kjy\myproject\python\mcp_command_server\src\mcp_command_server\mcp_server_api.py", line 155, in run
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\kjy\.pyenv\pyenv-win\versions\3.11.9\Lib\contextlib.py", line 217, in __aexit__
+  |     await anext(self.gen)
+  |   File "C:\Users\kjy\AppData\Local\pypoetry\Cache\virtualenvs\mcp-command-server-IsecyO5C-py3.11\Lib\site-packages\mcp\server\stdio.py", line 85, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\kjy\AppData\Local\pypoetry\Cache\virtualenvs\mcp-command-server-IsecyO5C-py3.11\Lib\site-packages\anyio\_backends\_asyncio.py", line 772, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\kjy\AppData\Local\pypoetry\Cache\virtualenvs\mcp-command-server-IsecyO5C-py3.11\Lib\site-packages\mcp\server\stdio.py", line 71, in stdin_reader
+    |     await read_stream_writer.send(session_message)
+    |   File "C:\Users\kjy\AppData\Local\pypoetry\Cache\virtualenvs\mcp-command-server-IsecyO5C-py3.11\Lib\site-packages\anyio\streams\memory.py", line 242, in send
+    |     self.send_nowait(item)
+    |   File "C:\Users\kjy\AppData\Local\pypoetry\Cache\virtualenvs\mcp-command-server-IsecyO5C-py3.11\Lib\site-packages\anyio\streams\memory.py", line 213, in send_nowait
+    |     raise BrokenResourceError
+    | anyio.BrokenResourceError
+    +------------------------------------
+2025-06-26 11:14:36,330 - __main__ - ERROR - 서버 시작 실패: unhandled errors in a TaskGroup (1 sub-exception)
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\kjy\myproject\python\mcp_command_server\src\mcp_command_server\mcp_server_api.py", line 232, in <module>
+  |     asyncio.run(main())
+  |   File "C:\Users\kjy\.pyenv\pyenv-win\versions\3.11.9\Lib\asyncio\runners.py", line 190, in run
+  |     return runner.run(main)
+  |            ^^^^^^^^^^^^^^^^
+  |   File "C:\Users\kjy\.pyenv\pyenv-win\versions\3.11.9\Lib\asyncio\runners.py", line 118, in run
+  |     return self._loop.run_until_complete(task)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "C:\Users\kjy\.pyenv\pyenv-win\versions\3.11.9\Lib\asyncio\base_events.py", line 654, in run_until_complete
+  |     return future.result()
+  |            ^^^^^^^^^^^^^^^
+  |   File "C:\Users\kjy\myproject\python\mcp_command_server\src\mcp_command_server\mcp_server_api.py", line 210, in main
+  |     await server.run()
+  |   File "C:\Users\kjy\myproject\python\mcp_command_server\src\mcp_command_server\mcp_server_api.py", line 155, in run
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\kjy\.pyenv\pyenv-win\versions\3.11.9\Lib\contextlib.py", line 217, in __aexit__
+  |     await anext(self.gen)
+  |   File "C:\Users\kjy\AppData\Local\pypoetry\Cache\virtualenvs\mcp-command-server-IsecyO5C-py3.11\Lib\site-packages\mcp\server\stdio.py", line 85, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\kjy\AppData\Local\pypoetry\Cache\virtualenvs\mcp-command-server-IsecyO5C-py3.11\Lib\site-packages\anyio\_backends\_asyncio.py", line 772, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\kjy\AppData\Local\pypoetry\Cache\virtualenvs\mcp-command-server-IsecyO5C-py3.11\Lib\site-packages\mcp\server\stdio.py", line 71, in stdin_reader
+    |     await read_stream_writer.send(session_message)
+    |   File "C:\Users\kjy\AppData\Local\pypoetry\Cache\virtualenvs\mcp-command-server-IsecyO5C-py3.11\Lib\site-packages\anyio\streams\memory.py", line 242, in send
+    |     self.send_nowait(item)
+    |   File "C:\Users\kjy\AppData\Local\pypoetry\Cache\virtualenvs\mcp-command-server-IsecyO5C-py3.11\Lib\site-packages\anyio\streams\memory.py", line 213, in send_nowait
+    |     raise BrokenResourceError
+    | anyio.BrokenResourceError
+    +------------------------------------
